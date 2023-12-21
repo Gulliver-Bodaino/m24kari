@@ -5,6 +5,4 @@
 
 @section('description')
 
-
 @section('main')
-
