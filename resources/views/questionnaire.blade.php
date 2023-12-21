@@ -1,11 +1,10 @@
-<html>
-<head>
-  <title>アンケートテスト</title>
-</head>
-<body>
-  <h1>アンケートテスト</h1>
+{{-- アンケート画面 --}}
+@extends('layouts.base')
+
+@section('title', 'アンケート')
+
+@section('description')
 
 
-</body>
+@section('main')
 
-</html>

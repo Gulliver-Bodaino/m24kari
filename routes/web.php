@@ -17,6 +17,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+
 Route::get('questionnaire', function () {
     Log::info('アンケートTOP');
     return view('questionnaire');
