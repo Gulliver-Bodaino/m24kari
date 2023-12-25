@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\QuestionnaireController;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,9 +19,5 @@ Route::get('/', function () {
 });
 
 
-Route::get('questionnaire', function () {
-    Log::info('アンケートTOP');
-    return view('questionnaire');
-});
-
+Route::get('questionnaire', [QuestionnaireController::class, 'index']);
 

@@ -14,15 +14,15 @@
         <link rel="stylesheet" href="{{ asset('css/otk247.css') }}">
     </head>
     <body>
-        <!--form method="post" action="touroku.php"-->
-        <!--form  name='sendf' method="post" -->
         
         <!-- ヘッダー -->
             @include('layouts.header')
         <!-- ヘッダー ここまで -->
+
         <!-- メイン -->
             @yield('main')
         <!-- メイン ここまで -->
+        
         <!-- フッター -->
             @include('layouts.footer')
         <!-- フッター ここまで -->

@@ -1,4 +1,17 @@
-html{
+body{
   max-width:1280px;
-  margin:auto;
+  margin:0 auto;
+}
+header{
+  text-align:center;
+}
+footer{
+  margin:32px auto;
+}
+footer p:last-of-type{
+  margin:64px 0 32px;
+  text-align:center;
+}
+.Q_title{
+  margin:32px 16px;
 }
