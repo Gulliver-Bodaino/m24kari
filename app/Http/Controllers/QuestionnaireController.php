@@ -10,10 +10,10 @@ class QuestionnaireController extends Controller
 {
     public function index()
     {
-        $questionnaire = MQuestionnaire::all();
-        $option = MQuestionnaireOption::all();
+        $mQuestionnaire = MQuestionnaire::all();
+        $mQuestionnaireOption = MQuestionnaireOption::all();
         
-        return view('questionnaire', ['questionnaire' => $questionnaire, 'option' => $option]);
+        return view('questionnaire', ['mQuestionnaire' => $mQuestionnaire, 'mQuestionnaireOption' => $mQuestionnaireOption]);
         
     }
 }
